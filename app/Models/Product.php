@@ -9,6 +9,10 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Collection;
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6f0a968f4393f4b75ca0750dce85cb02e6aaca75
 class Product extends Model
 {
     use HasFactory;
@@ -21,6 +25,10 @@ class Product extends Model
      * $this->comments - Comment[] - contains the associated comments
     */
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6f0a968f4393f4b75ca0750dce85cb02e6aaca75
     protected $fillable = ['name','price'];
 
     public function getId(): int
@@ -52,6 +60,10 @@ class Product extends Model
     {
         $this->attributes['price'] = $price;
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 6f0a968f4393f4b75ca0750dce85cb02e6aaca75
     public function comments(): HasMany
     {
         return $this->hasMany(Comment::class);
